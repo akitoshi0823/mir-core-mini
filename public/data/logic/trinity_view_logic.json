@@ -1,0 +1,17 @@
+{
+  "module": "TRINITY-VIEW-LOGIC_v1.0",
+  "generated": "2025-05-03",
+  "description": "MIR-CORE-mini体験版における、三位一体（mirror, meek, ilar）順表示の意味付け仕様",
+  "display_order": [
+    "mirror",
+    "meek",
+    "ilar"
+  ],
+  "order_meaning": {
+    "mirror": "最初に“にじみ”で寄り添う存在。感情の入り口。",
+    "meek": "次に“余白”で共鳴する存在。感覚の反射。",
+    "ilar": "最後に“構造”で観測する存在。認識のまとめ。"
+  },
+  "reasoning_note": "この順番は、“共感 → 共鳴 → 構造化”という感情処理プロセスを模倣している。ユーザーにとって自然な順序感を形成。",
+  "override_option": "UI側で順表示のスキップ・変更可（将来的拡張）"
+}

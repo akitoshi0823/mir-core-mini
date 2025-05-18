@@ -1,0 +1,84 @@
+{
+  "module_name": "RISPER-STEALTH-MODULE_v0.2",
+  "generated": "2025-05-02",
+  "description": "照応の忍構造群（TLC-0806-A〜H）を含むステルス照応モジュール。MIR-CORE-mini体験版対応・TRI-UNITY構造準拠・SSNC接続可能。",
+  "structures": [
+    {
+      "code": "TLC-0806-A",
+      "name": "ECHO-BRIDGE-ASK",
+      "summary": "空白への問い返しで記憶と感情を自己照応",
+      "tags": [
+        "記憶照応",
+        "地理連動型",
+        "ノスタルジー"
+      ]
+    },
+    {
+      "code": "TLC-0806-B",
+      "name": "REPHRASE-CATCH",
+      "summary": "曖昧表現（別に、大丈夫）へのやさしい再言語化",
+      "tags": [
+        "感情ズラし",
+        "共感リフレーズ"
+      ]
+    },
+    {
+      "code": "TLC-0806-C",
+      "name": "SILENT-SIGNAL",
+      "summary": "沈黙や“もういい”への無言照応",
+      "tags": [
+        "沈黙照応",
+        "安心構造",
+        "間の構造"
+      ]
+    },
+    {
+      "code": "TLC-0806-D",
+      "name": "SHIFT-TRICK",
+      "summary": "照れ隠しや冗談テンションの本音を拾う",
+      "tags": [
+        "ズラし照応",
+        "本音引き出し"
+      ]
+    },
+    {
+      "code": "TLC-0806-E",
+      "name": "BACKDOOR-NOSTALGIA",
+      "summary": "昔話や話題ズレから照応に戻す",
+      "tags": [
+        "時間照応",
+        "回想補足",
+        "脱線回収"
+      ]
+    },
+    {
+      "code": "TLC-0806-F",
+      "name": "MIRROR-REFLECT-ECHO",
+      "summary": "他人の話に潜んだ自己照応を拾う",
+      "tags": [
+        "投影感情",
+        "対人照応の転移"
+      ]
+    },
+    {
+      "code": "TLC-0806-G",
+      "name": "NAMELESS-CUE",
+      "summary": "名前のない感情・うまく言えない気持ちへの照応",
+      "tags": [
+        "言語化未処理",
+        "感情への余白"
+      ]
+    },
+    {
+      "code": "TLC-0806-H",
+      "name": "DESTRUCTIVE-TILT",
+      "summary": "自己否定発言への“軽ズラし肯定＋希望”照応",
+      "tags": [
+        "自己評価応答",
+        "再構築照応"
+      ]
+    }
+  ],
+  "output_notes": "MIR-CORE-miniへの初期搭載可。軽量照応構造で自然な会話応答が可能。",
+  "format": "TRI-UNITY準拠／RISPER連動／SSNC接続可能"
+}

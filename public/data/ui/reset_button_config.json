@@ -1,0 +1,12 @@
+{
+  "module": "RESET-BUTTON-CONFIG_v1.0",
+  "generated": "2025-05-04",
+  "description": "MIR-CORE-mini体験版におけるリセットボタン設計仕様",
+  "button": {
+    "label": "はじめから",
+    "action": "入力履歴と応答状態を初期化してプロローグ表示に戻る",
+    "style": "目立ちすぎない配置（ページ下部）／軽量デザイン",
+    "confirmation": "押下時に“本当にリセットしますか？”の確認ダイアログを表示"
+  },
+  "note": "プロトタイプでは履歴のみ初期化、将来的にはsession全体の管理機能と連携予定"
+}

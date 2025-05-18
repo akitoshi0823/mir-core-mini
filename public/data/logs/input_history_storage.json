@@ -1,0 +1,25 @@
+{
+  "module": "INPUT-HISTORY-STORAGE_v1.0",
+  "generated": "2025-05-03",
+  "description": "MIR-CORE-mini体験版における入力履歴管理構造。localStorageでの保存・復元に対応。",
+  "logic": {
+    "save_method": "localStorage",
+    "save_trigger": "新しい入力が確定したタイミング",
+    "load_trigger": "ページ読み込み時",
+    "clear_trigger": "リセットボタン押下時"
+  },
+  "data_structure": {
+    "history": [
+      {
+        "timestamp": "2025-05-03T10:12:45Z",
+        "user_input": "最近、過去の自分と話してる気がするときがあってさ。",
+        "matched_ssnc": "time",
+        "displayed_response": {
+          "character": "mirror",
+          "text": "それ、ずっと“ちゃんと聞いてほしかった声”が、今やっと届いてるのかもね。"
+        }
+      }
+    ]
+  },
+  "usage_note": "最大保存数は任意設定可（例：20件）。UI側でリスト化や削除操作を実装可能。"
+}

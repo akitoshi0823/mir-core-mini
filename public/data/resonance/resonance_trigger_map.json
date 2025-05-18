@@ -1,0 +1,21 @@
+{
+  "conditions": {
+    "prologue_end": [
+      "wave_ripple"
+    ],
+    "silent_input_timeout": [
+      "ellipsis_residual",
+      "background_blur"
+    ],
+    "ambiguous_input_detected": [
+      "ellipsis_residual"
+    ],
+    "resonance_depth_high": [
+      "wave_ripple",
+      "followup_resonance"
+    ],
+    "direct_tlc_triggered": [
+      "wave_ripple"
+    ]
+  }
+}

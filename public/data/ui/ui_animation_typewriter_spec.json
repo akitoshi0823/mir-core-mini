@@ -1,0 +1,17 @@
+{
+  "module": "UI-ANIMATION-SPEC_v1.0",
+  "generated": "2025-05-04",
+  "description": "応答テキストにタイプライター演出を適用する仕様",
+  "animation_type": "typewriter",
+  "settings": {
+    "speed_ms_per_char": 35,
+    "cursor": true,
+    "cursor_symbol": "｜",
+    "fade_in_delay_ms": 200
+  },
+  "applies_to": [
+    "persona.response",
+    "persona.catchphrase"
+  ],
+  "note": "演出は初回表示時のみ適用。キャラ切り替え後の表示は即時描画でも可。"
+}

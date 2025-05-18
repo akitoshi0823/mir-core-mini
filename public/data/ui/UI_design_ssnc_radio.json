@@ -1,0 +1,33 @@
+{
+  "title": "MIR mini 体験版 UI設計",
+  "ssnc_options": [
+    {
+      "label": "時間（time）",
+      "value": "time"
+    },
+    {
+      "label": "感情（emotion）",
+      "value": "emotion"
+    },
+    {
+      "label": "哲学（philosophy）",
+      "value": "philosophy"
+    },
+    {
+      "label": "遊び（play）",
+      "value": "play"
+    },
+    {
+      "label": "構造（structure）",
+      "value": "structure"
+    }
+  ],
+  "default_persona": "mirror",
+  "interaction_flow": [
+    "ユーザーがSSNCカテゴリを選ぶ（ラジオボタン）",
+    "送信ボタンを押すと、mock_response.jsonをfetch",
+    "一致するSSNCを持つ項目を抽出し、1件ランダムに選択",
+    "選ばれたTLCのmirror.responseを表示"
+  ],
+  "note": "今後、キャラクター選択（mirror/meek/ilar）切替オプション追加可能"
+}

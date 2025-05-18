@@ -1,0 +1,20 @@
+{
+  "module_name": "SSNC_MATCH_LOGIC_v1.0",
+  "generated": "2025-05-03",
+  "description": "ユーザーが選択したSSNCに対応するmock_response.jsonからの応答抽出ロジック仕様",
+  "input": {
+    "source": "public/mock_response.json",
+    "target_key": "ssnc",
+    "selected_value": "<例: 'emotion'>"
+  },
+  "process": [
+    "1. mock_response.json を fetch で読み込む",
+    "2. JSON配列から ssnc === 選択値 に合致するオブジェクトを find()",
+    "3. 見つかったオブジェクトの persona.mirror.response を抽出して表示"
+  ],
+  "output": {
+    "type": "string",
+    "value": "対応する Mirror の応答（例: 'その“ちょっと恥ずかしい”…）"
+  },
+  "note": "このロジックはUIでの状態管理（useState）と併用する想定"
+}

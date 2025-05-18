@@ -1,0 +1,14 @@
+{
+  "output_modes": {
+    "default": {
+      "staging": "single_block",
+      "animation": "fade-in",
+      "delay": 0
+    },
+    "followup_resonance": {
+      "staging": "layered",
+      "animation": "delayed-fade",
+      "delay": 1500
+    }
+  }
+}

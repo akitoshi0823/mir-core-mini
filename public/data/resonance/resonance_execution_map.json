@@ -1,0 +1,48 @@
+{
+  "execution_logic": {
+    "trigger_conditions": {
+      "prologue_end": {
+        "effects": [
+          "wave_ripple"
+        ],
+        "output_mode": "default",
+        "log_depth": 2.5
+      },
+      "silent_input_timeout": {
+        "effects": [
+          "ellipsis_residual",
+          "background_blur"
+        ],
+        "output_mode": "default",
+        "log_depth": 3.0
+      },
+      "ambiguous_input_detected": {
+        "effects": [
+          "ellipsis_residual"
+        ],
+        "output_mode": "followup_resonance",
+        "log_depth": 4.0
+      },
+      "resonance_depth_high": {
+        "effects": [
+          "wave_ripple",
+          "followup_resonance"
+        ],
+        "output_mode": "followup_resonance",
+        "log_depth": "inherit"
+      },
+      "direct_tlc_triggered": {
+        "effects": [
+          "wave_ripple"
+        ],
+        "output_mode": "default",
+        "log_depth": 1.0
+      }
+    },
+    "depth_thresholds": {
+      "low": 1.0,
+      "medium": 3.0,
+      "high": 4.5
+    }
+  }
+}

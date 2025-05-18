@@ -1,0 +1,15 @@
+{
+  "resonance_id": "2025-05-04T14:32:19.813128Z",
+  "user_input": "うーん、なんかね…",
+  "trigger_tlc": "TLC-0806-B",
+  "character_used": "mirror",
+  "resonance_depth": 4.2,
+  "depth_factors": {
+    "ambiguity_score": 0.7,
+    "trigger_type_score": 1.0,
+    "input_style_score": 1.0,
+    "character_shift_score": 0.5,
+    "response_time_score": 1.0
+  },
+  "timestamp": "2025-05-04T14:32:19.813135Z"
+}

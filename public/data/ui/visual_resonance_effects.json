@@ -1,0 +1,26 @@
+{
+  "effects": {
+    "wave_ripple": {
+      "trigger": [
+        "user_choice",
+        "auto_resonance"
+      ],
+      "animation": "radial-expansion",
+      "duration": 600,
+      "style": "subtle",
+      "color": "inherit"
+    },
+    "background_blur": {
+      "trigger": [
+        "resonance_output"
+      ],
+      "intensity": "low",
+      "duration": 500
+    },
+    "ellipsis_residual": {
+      "trigger_condition": "silent_or_ambiguous_input",
+      "duration": 1000,
+      "fade_out": true
+    }
+  }
+}

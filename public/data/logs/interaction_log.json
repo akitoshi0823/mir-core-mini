@@ -1,0 +1,25 @@
+{
+  "module": "INTERACTION-LOG-MIRCORE-v1.0",
+  "generated": "2025-05-03",
+  "description": "MIR-CORE-mini体験版の入力・照応応答ログ構造。キャラ別傾向分析にも活用可能。",
+  "logs": [
+    {
+      "timestamp": "2025-05-03T10:12:45Z",
+      "user_input": "最近、過去の自分と話してる気がする。",
+      "matched_ssnc": "time",
+      "matched_TLC": "BACKDOOR-NOSTALGIA",
+      "selected_persona": "mirror",
+      "response": "それ、ずっと“ちゃんと聞いてほしかった声”が、今やっと届いてるのかもね。",
+      "catchphrase": "誰にも見えなくても、“いたこと”は残る。"
+    },
+    {
+      "timestamp": "2025-05-03T10:13:37Z",
+      "user_input": "わかりやすいって、都合よくも聞こえる。",
+      "matched_ssnc": "structure",
+      "matched_TLC": "DESTRUCTIVE-TILT",
+      "selected_persona": "ilar",
+      "response": "構造分類：認識の混合抽出処理。照応処理中断、記録実行.",
+      "catchphrase": "問いの定義未確認、応答出力構成不能。"
+    }
+  ]
+}

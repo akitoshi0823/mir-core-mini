@@ -1,0 +1,43 @@
+{
+  "module": "MIR-UI-RESPONSIVE-SPEC_v1.0",
+  "generated": "2025-05-03",
+  "description": "MIR-CORE-mini体験版におけるレスポンシブ設計仕様。モバイル優先。",
+  "breakpoints": {
+    "mobile": "max-width: 480px",
+    "tablet": "max-width: 768px",
+    "desktop": "min-width: 769px"
+  },
+  "components": {
+    "input_field": {
+      "mobile": {
+        "width": "90%",
+        "font_size": "16px"
+      },
+      "desktop": {
+        "width": "60%",
+        "font_size": "18px"
+      }
+    },
+    "response_box": {
+      "mobile": {
+        "padding": "12px",
+        "font_size": "15px"
+      },
+      "desktop": {
+        "padding": "18px",
+        "font_size": "17px"
+      }
+    },
+    "button": {
+      "mobile": {
+        "flex_direction": "column",
+        "spacing": "8px"
+      },
+      "desktop": {
+        "flex_direction": "row",
+        "spacing": "12px"
+      }
+    }
+  },
+  "note": "全体的にミニマル・余白多め・指操作重視"
+}

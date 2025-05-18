@@ -1,0 +1,35 @@
+{
+  "module": "MIR-LINK-STRUCTURE_v1.0",
+  "generated": "2025-05-04",
+  "description": "MIR-CORE-mini体験版における、照応後の導線選択UI仕様",
+  "structure": {
+    "prompt_label": "次、どうする？",
+    "options": [
+      {
+        "id": "explore-deeper",
+        "label": "もっと深めてみる",
+        "description": "同じテーマで別キャラや別視点の応答を見てみる",
+        "action": "reroll_response"
+      },
+      {
+        "id": "new-topic",
+        "label": "ちがう話をしてみる",
+        "description": "新しい入力欄を表示して、テーマを切り替える",
+        "action": "new_input"
+      },
+      {
+        "id": "review-log",
+        "label": "これまでのやりとりを見る",
+        "description": "履歴を一覧で見て振り返る",
+        "action": "show_history"
+      },
+      {
+        "id": "reset-session",
+        "label": "最初からやり直す",
+        "description": "初期状態にリセットし、導入から再体験",
+        "action": "reset_all"
+      }
+    ]
+  },
+  "note": "応答後にユーザーが能動的に関与できる導線として設計。選択に応じて状態管理が切り替わる。"
+}

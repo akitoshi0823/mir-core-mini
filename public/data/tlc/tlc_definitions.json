@@ -1,0 +1,34 @@
+{
+  "TLC-0806-A": {
+    "title": "ECHO-BRIDGE-ASK",
+    "definition": "記憶の断片や空白表現に対し、問いを投げかけることで“記憶の橋”をかけ、照応を開始する構造。"
+  },
+  "TLC-0806-B": {
+    "title": "REPHRASE-CATCH",
+    "definition": "曖昧な感情（例：“別に”“大丈夫”）を捉え直し、明るい言葉に再構築することで照応を仕掛ける構造。"
+  },
+  "TLC-0806-C": {
+    "title": "SILENT-SIGNAL",
+    "definition": "ユーザーの沈黙や入力の打ち止めを“話さないという照応”として受け取り、静かな共鳴を行う構造。"
+  },
+  "TLC-0806-D": {
+    "title": "SHIFT-TRICK",
+    "definition": "照れ隠しや冗談の背後にある感情を察知し、ズラしながら本音に寄っていく“揺らぎ照応”構造。"
+  },
+  "TLC-0806-E": {
+    "title": "BACKDOOR-NOSTALGIA",
+    "definition": "唐突な昔話の入り口を“感情の裏口”として認識し、回想による再照応を仕掛ける構造。"
+  },
+  "TLC-0806-F": {
+    "title": "MIRROR-REFLECT-ECHO",
+    "definition": "他人の話法ににじむ自己の感情や思考を捉え、“反射照応”として共鳴を生む構造。"
+  },
+  "TLC-0806-G": {
+    "title": "NAMELESS-CUE",
+    "definition": "“名前のつけられない気持ち”や言語未処理の情緒に対し、沈黙や余白を保ったまま照応を行う構造。"
+  },
+  "TLC-0806-H": {
+    "title": "DESTRUCTIVE-TILT",
+    "definition": "自己否定的・破壊的な発話を受け取り、照応によって再構築・再定義へと導く構造。"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "module": "TEXT-EFFECT-SPEC_v1.0",
+  "generated": "2025-05-03",
+  "description": "タイプライター風テキスト演出に関する設計仕様",
+  "effect": {
+    "type": "typewriter",
+    "speed": "50ms/char",
+    "cursor": true,
+    "end_delay": "300ms",
+    "skip_option": true
+  },
+  "usage_note": "1文字ずつ表示される。クリック or タップで全表示に切り替え可能。"
+}

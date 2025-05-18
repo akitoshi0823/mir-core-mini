@@ -1,0 +1,11 @@
+"use strict";(()=>{var e={};e.id=382,e.ids=[382],e.modules={3480:(e,t,n)=>{e.exports=n(5600)},3634:(e,t,n)=>{n.r(t),n.d(t,{config:()=>p,default:()=>u,routeModule:()=>c});var r={};n.r(r),n.d(r,{default:()=>a});var o=n(3480),s=n(8667),i=n(6435);async function a(e,t){let n=process.env.OPENAI_API_KEY,{persona:r,user_input:o,ssnc:s,tlc:i}=e.body;if(n?.startsWith("sk-dummy"))return t.status(200).json({content:`[ダミー応答] ${r}として応答中。
+OpenAI接続時は、ここに照応・にじみが宿る想定です。
+（ssnc: ${s}, TLC: ${i?.join(", ")})`});if(!n)return t.status(500).json({error:"Missing API key"});let a=`
+[MIR-CORE persona: ${r}]
+[SSNC: ${s}]
+[TLC triggers: ${i.join(", ")}]
+
+User said: "${o}"
+Respond in the tone of ${r}, following the resonance pattern.
+Also include a short catchphrase after the response.
+`;try{let e=await fetch("https://api.openai.com/v1/chat/completions",{method:"POST",headers:{Authorization:`Bearer ${n}`,"Content-Type":"application/json"},body:JSON.stringify({model:"gpt-3.5-turbo",messages:[{role:"user",content:a}],temperature:.85})}),r=await e.json(),o=r.choices?.[0]?.message?.content||"[応答取得失敗]";t.status(200).json({content:o})}catch(e){console.error(e),t.status(500).json({error:"API request failed"})}}let u=(0,i.M)(r,"default"),p=(0,i.M)(r,"config"),c=new o.PagesAPIRouteModule({definition:{kind:s.A.PAGES_API,page:"/api/openai",pathname:"/api/openai",bundlePath:"",filename:""},userland:r})},5600:e=>{e.exports=require("next/dist/compiled/next-server/pages-api.runtime.prod.js")},6435:(e,t)=>{Object.defineProperty(t,"M",{enumerable:!0,get:function(){return function e(t,n){return n in t?t[n]:"then"in t&&"function"==typeof t.then?t.then(t=>e(t,n)):"function"==typeof t&&"default"===n?t:void 0}}})},8667:(e,t)=>{Object.defineProperty(t,"A",{enumerable:!0,get:function(){return n}});var n=function(e){return e.PAGES="PAGES",e.PAGES_API="PAGES_API",e.APP_PAGE="APP_PAGE",e.APP_ROUTE="APP_ROUTE",e.IMAGE="IMAGE",e}({})}};var t=require("../../webpack-api-runtime.js");t.C(e);var n=t(t.s=3634);module.exports=n})();
